@@ -1,0 +1,334 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+* ::selection{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/* #video img{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 110vw;
+} */
+#video{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    border-radius: 20px;
+}
+/* #vid4{
+    height: 80%;
+} */
+#video video{
+    width: 100%;
+    height: 100%;
+}
+#vid2{
+    display: flex;
+    margin-left: -500px;
+}
+.main{
+    display: flex;
+}
+#navv{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+#nav #right a{
+    letter-spacing: 2px;
+    margin-top: 8px;
+    font-style: bold;
+    letter-spacing: 0.1px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-weight: 800;
+    color: aliceblue;
+}
+#main{
+    width: 100%;
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+}
+/* #right button{
+    border: 1px solid rgb(195, 189, 189);
+    border-radius: 30%;
+    background-color: rgba(255, 255, 255, 0.825);
+    padding: 0px 3%;
+    height: 45px;
+    width: fit-content;
+    color: rgba(217, 143, 47, 0.83);
+} */
+#nav #right{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#nav img{
+    width: 100px;
+ }
+#nav i{
+    color: aliceblue;
+    margin-top: 5px;
+    font-size: 25px;
+ }
+#nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 50px;
+}
+#home #homemain{
+
+    margin-top: -50px;
+    padding: 10vw 12vw;
+    
+}
+.headings{
+    display: flex;
+    gap: 20px;
+}
+.headings h1{
+    
+    padding-left: 5px ;
+    font-size:100px;
+    font-weight: 600px;
+    letter-spacing: -10;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Borel', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif Telugu', serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 2.5px rgb(201, 192, 192);
+}
+#homemain h5{
+    font-size: 18px;
+    font-family: 'Borel', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400vw;
+}
+#homemain .headings h1:hover{
+    color: rgb(250, 234, 63);
+    /* mix-blend-mode: screen;
+    box-shadow: 10px 10px 10px 10px; */
+}
+#homemain h5{
+    color: aliceblue;
+}
+#home #homelast{
+    color: antiquewhite;
+    width: 75%;
+    margin-top: 50px;
+    padding: 10px 188px;
+    font-family: 'Borel', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+}
+#featured{
+    padding: 300px 188px;
+    font-size: 2vw;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Borel', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+#last2{
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgb(54, 51, 51);
+}
+.fimage{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 400px;
+    height: 100vh;
+    padding: 10px 20px;
+    /* border: 1px solid black; */
+}
+#fleft{
+    overflow: hidden;
+    width: 50%;
+    height: inherit;
+}
+#fright{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    height: inherit;
+    background-color: red;
+}
+#fright img{
+    box-shadow: 0px 0px 50px 5px yellow;
+    width: 40vw;
+    height: 50vw;
+    
+}
+.fleftelem{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    
+}
+.fleftelem h1{
+    align-content: center;
+    font-size: 2.4vw;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 3vh 0vh;
+}
+.fleftelem h3{
+    font-size: 1.1vw;
+    font-weight: 600;
+ 
+}
+.fleftelem h4{
+    opacity: .5;
+    padding: 10px;
+}
+#buttondiv{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+#buttondiv button{
+    padding: 10px 10px;
+    border: 2px solid rgb(214, 211, 211);
+    background-color: white;
+    border-radius: 100px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#dev{
+    padding: 0px 188px;
+}
+#dev h1{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Borel', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif Telugu', serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    width: 45%;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 3.5vw;
+    letter-spacing: 2px;
+}
+#dev p{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Borel', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif Telugu', serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 35px;
+    width: 45%;
+    line-height: 28px;
+    font-weight: .8;
+    font-size: 1.3vw;
+    color: rgb(57, 55, 55);
+}
+#slide{
+    margin-top: 50px;
+    padding: 2vw 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+#box{
+    background-color: aquamarine;
+    height: 210px;
+    width: 380px;
+}
+.tags{
+    padding: 0vw 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+#tag{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Borel', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif Telugu', serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    height: 210px;
+    width: 380px;
+}
+#tag h5{
+    
+    padding: 8px;
+    width: fit-content;
+    font-size: 11px;
+    background-color: rgb(223, 220, 220);
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 1.5vw;
+    margin-bottom: 10px;
+}
+#tag h2{
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+#tag span{
+    box-shadow: 0px 0px 0px 0px red;
+}
+#slide img{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#button2{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+#button2 button{
+    padding: 10px 10px;
+    border: 2px solid rgb(214, 211, 211);
+    background-color: white;
+    border-radius: 100px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 100px;
+}
